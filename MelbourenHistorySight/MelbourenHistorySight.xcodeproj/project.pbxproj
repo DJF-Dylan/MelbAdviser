@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA00DCDC231F97DF0025E985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DCDB231F97DF0025E985 /* AppDelegate.swift */; };
+		BA00DCE1231F97DF0025E985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA00DCDF231F97DF0025E985 /* Main.storyboard */; };
+		BA00DCE4231F97DF0025E985 /* MelbourenHistorySight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA00DCE2231F97DF0025E985 /* MelbourenHistorySight.xcdatamodeld */; };
+		BA00DCE6231F97E00025E985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA00DCE5231F97E00025E985 /* Assets.xcassets */; };
+		BA00DCE9231F97E00025E985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA00DCE7231F97E00025E985 /* LaunchScreen.storyboard */; };
+		BA00DCF4231F97E00025E985 /* MelbourenHistorySightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DCF3231F97E00025E985 /* MelbourenHistorySightTests.swift */; };
+		BA00DCFF231F97E00025E985 /* MelbourenHistorySightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DCFE231F97E00025E985 /* MelbourenHistorySightUITests.swift */; };
+		BA00DD10231F98450025E985 /* HistorySight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD0E231F98450025E985 /* HistorySight.xcdatamodeld */; };
+		BA00DD14231F9A290025E985 /* SightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD13231F9A290025E985 /* SightTableViewCell.swift */; };
+		BA00DD16231F9A550025E985 /* NewLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD15231F9A550025E985 /* NewLocationController.swift */; };
+		BA00DD1C231F9F170025E985 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD1B231F9F170025E985 /* MapViewController.swift */; };
+		BA00DD20231FA0D70025E985 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD1F231FA0D70025E985 /* LocationTableViewController.swift */; };
+		BA00DD27231FA7D50025E985 /* Sight+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD25231FA7D50025E985 /* Sight+CoreDataClass.swift */; };
+		BA00DD28231FA7D50025E985 /* Sight+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD26231FA7D50025E985 /* Sight+CoreDataProperties.swift */; };
+		BA00DD2A231FA9460025E985 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD29231FA9460025E985 /* DatabaseProtocol.swift */; };
+		BA00DD2C231FAA3A0025E985 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD2B231FAA3A0025E985 /* CoreDataController.swift */; };
+		BA00DD2E231FAA810025E985 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD2D231FAA810025E985 /* MulticastDelegate.swift */; };
+		BA00DD30231FE6240025E985 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD2F231FE6240025E985 /* LocationAnnotation.swift */; };
+		BA00DD322320D3660025E985 /* SightDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DD312320D3660025E985 /* SightDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA00DCF0231F97E00025E985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA00DCD0231F97DF0025E985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA00DCD7231F97DF0025E985;
+			remoteInfo = MelbourenHistorySight;
+		};
+		BA00DCFB231F97E00025E985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA00DCD0231F97DF0025E985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA00DCD7231F97DF0025E985;
+			remoteInfo = MelbourenHistorySight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA00DCD8231F97DF0025E985 /* MelbourenHistorySight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelbourenHistorySight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00DCDB231F97DF0025E985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA00DCE0231F97DF0025E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA00DCE3231F97DF0025E985 /* MelbourenHistorySight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MelbourenHistorySight.xcdatamodel; sourceTree = "<group>"; };
+		BA00DCE5231F97E00025E985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA00DCE8231F97E00025E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA00DCEA231F97E00025E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA00DCEF231F97E00025E985 /* MelbourenHistorySightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelbourenHistorySightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00DCF3231F97E00025E985 /* MelbourenHistorySightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelbourenHistorySightTests.swift; sourceTree = "<group>"; };
+		BA00DCF5231F97E00025E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA00DCFA231F97E00025E985 /* MelbourenHistorySightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelbourenHistorySightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00DCFE231F97E00025E985 /* MelbourenHistorySightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelbourenHistorySightUITests.swift; sourceTree = "<group>"; };
+		BA00DD00231F97E00025E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA00DD0F231F98450025E985 /* HistorySight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistorySight.xcdatamodel; sourceTree = "<group>"; };
+		BA00DD13231F9A290025E985 /* SightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightTableViewCell.swift; sourceTree = "<group>"; };
+		BA00DD15231F9A550025E985 /* NewLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLocationController.swift; sourceTree = "<group>"; };
+		BA00DD1B231F9F170025E985 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BA00DD1F231FA0D70025E985 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		BA00DD25231FA7D50025E985 /* Sight+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sight+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA00DD26231FA7D50025E985 /* Sight+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sight+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA00DD29231FA9460025E985 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		BA00DD2B231FAA3A0025E985 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		BA00DD2D231FAA810025E985 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		BA00DD2F231FE6240025E985 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		BA00DD312320D3660025E985 /* SightDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightDetailViewController.swift; sourceTree = "<group>"; };
+		BA00DD33232112DA0025E985 /* Flinders.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Flinders.gpx; sourceTree = "<group>"; };
+		BA00DD34232112E70025E985 /* mel museum.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "mel museum.gpx"; sourceTree = "<group>"; };
+		BA00DD36232215300025E985 /* caulfield-no sight around.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "caulfield-no sight around.gpx"; sourceTree = "<group>"; };
+		BA00DD37232215380025E985 /* clayton-no sight around.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "clayton-no sight around.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA00DCD5231F97DF0025E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCEC231F97E00025E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCF7231F97E00025E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA00DCCF231F97DF0025E985 = {
+			isa = PBXGroup;
+			children = (
+				BA00DD37232215380025E985 /* clayton-no sight around.gpx */,
+				BA00DD36232215300025E985 /* caulfield-no sight around.gpx */,
+				BA00DD34232112E70025E985 /* mel museum.gpx */,
+				BA00DD33232112DA0025E985 /* Flinders.gpx */,
+				BA00DCDA231F97DF0025E985 /* MelbourenHistorySight */,
+				BA00DCF2231F97E00025E985 /* MelbourenHistorySightTests */,
+				BA00DCFD231F97E00025E985 /* MelbourenHistorySightUITests */,
+				BA00DCD9231F97DF0025E985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA00DCD9231F97DF0025E985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DCD8231F97DF0025E985 /* MelbourenHistorySight.app */,
+				BA00DCEF231F97E00025E985 /* MelbourenHistorySightTests.xctest */,
+				BA00DCFA231F97E00025E985 /* MelbourenHistorySightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA00DCDA231F97DF0025E985 /* MelbourenHistorySight */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DD0D231F97F00025E985 /* Database */,
+				BA00DD0C231F97E60025E985 /* DataModel */,
+				BA00DCDB231F97DF0025E985 /* AppDelegate.swift */,
+				BA00DCDF231F97DF0025E985 /* Main.storyboard */,
+				BA00DCE5231F97E00025E985 /* Assets.xcassets */,
+				BA00DCE7231F97E00025E985 /* LaunchScreen.storyboard */,
+				BA00DCEA231F97E00025E985 /* Info.plist */,
+				BA00DCE2231F97DF0025E985 /* MelbourenHistorySight.xcdatamodeld */,
+				BA00DD13231F9A290025E985 /* SightTableViewCell.swift */,
+				BA00DD15231F9A550025E985 /* NewLocationController.swift */,
+				BA00DD1B231F9F170025E985 /* MapViewController.swift */,
+				BA00DD1F231FA0D70025E985 /* LocationTableViewController.swift */,
+				BA00DD2F231FE6240025E985 /* LocationAnnotation.swift */,
+				BA00DD312320D3660025E985 /* SightDetailViewController.swift */,
+			);
+			path = MelbourenHistorySight;
+			sourceTree = "<group>";
+		};
+		BA00DCF2231F97E00025E985 /* MelbourenHistorySightTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DCF3231F97E00025E985 /* MelbourenHistorySightTests.swift */,
+				BA00DCF5231F97E00025E985 /* Info.plist */,
+			);
+			path = MelbourenHistorySightTests;
+			sourceTree = "<group>";
+		};
+		BA00DCFD231F97E00025E985 /* MelbourenHistorySightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DCFE231F97E00025E985 /* MelbourenHistorySightUITests.swift */,
+				BA00DD00231F97E00025E985 /* Info.plist */,
+			);
+			path = MelbourenHistorySightUITests;
+			sourceTree = "<group>";
+		};
+		BA00DD0C231F97E60025E985 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DD25231FA7D50025E985 /* Sight+CoreDataClass.swift */,
+				BA00DD26231FA7D50025E985 /* Sight+CoreDataProperties.swift */,
+				BA00DD0E231F98450025E985 /* HistorySight.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		BA00DD0D231F97F00025E985 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BA00DD29231FA9460025E985 /* DatabaseProtocol.swift */,
+				BA00DD2B231FAA3A0025E985 /* CoreDataController.swift */,
+				BA00DD2D231FAA810025E985 /* MulticastDelegate.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA00DCD7231F97DF0025E985 /* MelbourenHistorySight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00DD03231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySight" */;
+			buildPhases = (
+				BA00DCD4231F97DF0025E985 /* Sources */,
+				BA00DCD5231F97DF0025E985 /* Frameworks */,
+				BA00DCD6231F97DF0025E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelbourenHistorySight;
+			productName = MelbourenHistorySight;
+			productReference = BA00DCD8231F97DF0025E985 /* MelbourenHistorySight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA00DCEE231F97E00025E985 /* MelbourenHistorySightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00DD06231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySightTests" */;
+			buildPhases = (
+				BA00DCEB231F97E00025E985 /* Sources */,
+				BA00DCEC231F97E00025E985 /* Frameworks */,
+				BA00DCED231F97E00025E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA00DCF1231F97E00025E985 /* PBXTargetDependency */,
+			);
+			name = MelbourenHistorySightTests;
+			productName = MelbourenHistorySightTests;
+			productReference = BA00DCEF231F97E00025E985 /* MelbourenHistorySightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA00DCF9231F97E00025E985 /* MelbourenHistorySightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00DD09231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySightUITests" */;
+			buildPhases = (
+				BA00DCF6231F97E00025E985 /* Sources */,
+				BA00DCF7231F97E00025E985 /* Frameworks */,
+				BA00DCF8231F97E00025E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA00DCFC231F97E00025E985 /* PBXTargetDependency */,
+			);
+			name = MelbourenHistorySightUITests;
+			productName = MelbourenHistorySightUITests;
+			productReference = BA00DCFA231F97E00025E985 /* MelbourenHistorySightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA00DCD0231F97DF0025E985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = JunfanDang;
+				TargetAttributes = {
+					BA00DCD7231F97DF0025E985 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BA00DCEE231F97E00025E985 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BA00DCD7231F97DF0025E985;
+					};
+					BA00DCF9231F97E00025E985 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BA00DCD7231F97DF0025E985;
+					};
+				};
+			};
+			buildConfigurationList = BA00DCD3231F97DF0025E985 /* Build configuration list for PBXProject "MelbourenHistorySight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA00DCCF231F97DF0025E985;
+			productRefGroup = BA00DCD9231F97DF0025E985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA00DCD7231F97DF0025E985 /* MelbourenHistorySight */,
+				BA00DCEE231F97E00025E985 /* MelbourenHistorySightTests */,
+				BA00DCF9231F97E00025E985 /* MelbourenHistorySightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA00DCD6231F97DF0025E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00DCE9231F97E00025E985 /* LaunchScreen.storyboard in Resources */,
+				BA00DCE6231F97E00025E985 /* Assets.xcassets in Resources */,
+				BA00DCE1231F97DF0025E985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCED231F97E00025E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCF8231F97E00025E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA00DCD4231F97DF0025E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00DD20231FA0D70025E985 /* LocationTableViewController.swift in Sources */,
+				BA00DD2C231FAA3A0025E985 /* CoreDataController.swift in Sources */,
+				BA00DCDC231F97DF0025E985 /* AppDelegate.swift in Sources */,
+				BA00DD1C231F9F170025E985 /* MapViewController.swift in Sources */,
+				BA00DD27231FA7D50025E985 /* Sight+CoreDataClass.swift in Sources */,
+				BA00DD2A231FA9460025E985 /* DatabaseProtocol.swift in Sources */,
+				BA00DD16231F9A550025E985 /* NewLocationController.swift in Sources */,
+				BA00DD2E231FAA810025E985 /* MulticastDelegate.swift in Sources */,
+				BA00DD322320D3660025E985 /* SightDetailViewController.swift in Sources */,
+				BA00DD10231F98450025E985 /* HistorySight.xcdatamodeld in Sources */,
+				BA00DCE4231F97DF0025E985 /* MelbourenHistorySight.xcdatamodeld in Sources */,
+				BA00DD30231FE6240025E985 /* LocationAnnotation.swift in Sources */,
+				BA00DD28231FA7D50025E985 /* Sight+CoreDataProperties.swift in Sources */,
+				BA00DD14231F9A290025E985 /* SightTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCEB231F97E00025E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00DCF4231F97E00025E985 /* MelbourenHistorySightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00DCF6231F97E00025E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00DCFF231F97E00025E985 /* MelbourenHistorySightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA00DCF1231F97E00025E985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA00DCD7231F97DF0025E985 /* MelbourenHistorySight */;
+			targetProxy = BA00DCF0231F97E00025E985 /* PBXContainerItemProxy */;
+		};
+		BA00DCFC231F97E00025E985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA00DCD7231F97DF0025E985 /* MelbourenHistorySight */;
+			targetProxy = BA00DCFB231F97E00025E985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA00DCDF231F97DF0025E985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA00DCE0231F97DF0025E985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA00DCE7231F97E00025E985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA00DCE8231F97E00025E985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA00DD01231F97E00025E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA00DD02231F97E00025E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA00DD04231F97E00025E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA00DD05231F97E00025E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA00DD07231F97E00025E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelbourenHistorySight.app/MelbourenHistorySight";
+			};
+			name = Debug;
+		};
+		BA00DD08231F97E00025E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelbourenHistorySight.app/MelbourenHistorySight";
+			};
+			name = Release;
+		};
+		BA00DD0A231F97E00025E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelbourenHistorySight;
+			};
+			name = Debug;
+		};
+		BA00DD0B231F97E00025E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourenHistorySightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FIT5140.MelbourenHistorySightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelbourenHistorySight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA00DCD3231F97DF0025E985 /* Build configuration list for PBXProject "MelbourenHistorySight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00DD01231F97E00025E985 /* Debug */,
+				BA00DD02231F97E00025E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00DD03231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00DD04231F97E00025E985 /* Debug */,
+				BA00DD05231F97E00025E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00DD06231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00DD07231F97E00025E985 /* Debug */,
+				BA00DD08231F97E00025E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00DD09231F97E00025E985 /* Build configuration list for PBXNativeTarget "MelbourenHistorySightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00DD0A231F97E00025E985 /* Debug */,
+				BA00DD0B231F97E00025E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA00DCE2231F97DF0025E985 /* MelbourenHistorySight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA00DCE3231F97DF0025E985 /* MelbourenHistorySight.xcdatamodel */,
+			);
+			currentVersion = BA00DCE3231F97DF0025E985 /* MelbourenHistorySight.xcdatamodel */;
+			path = MelbourenHistorySight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		BA00DD0E231F98450025E985 /* HistorySight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA00DD0F231F98450025E985 /* HistorySight.xcdatamodel */,
+			);
+			currentVersion = BA00DD0F231F98450025E985 /* HistorySight.xcdatamodel */;
+			path = HistorySight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA00DCD0231F97DF0025E985 /* Project object */;
+}
